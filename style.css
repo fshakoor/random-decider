@@ -1,0 +1,22 @@
+:root {
+    --grey-red: rgba(29,30,38,255)
+}
+
+body {
+    background-color: var(--grey-red);
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: blue;
+    padding: 1vh;
+}
+
+#text-input {
+    height: 50vh;
+    width: 50vh;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Decider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- TODO: Header -->
+    <!-- TODO: Instructions + Input Box -->
+    <div class="container">
+        <h1 class="title-header">Random Decider</h1>
+        <form id="myform" onsubmit="return formControl.handle_form_submission()">
+            <label>
+                <input type="text" id="text-input" required>
+            </label>
+            <button class="submit" type="submit" id="submit">Randomize!</button>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
